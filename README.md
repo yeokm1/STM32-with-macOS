@@ -27,10 +27,10 @@ After the *Command Line Tools* were successfully installed, the remaining toolch
 2. Install *Homebrew*. Follow instructions available on [brew.sh][Homebrew]
 3. Install GCC ARM Embedded Toolchain:
 ```
-$ brew install caskroom/cask/gcc-arm-embedded
+$ brew install armmbed/formulae/arm-none-eabi-gcc
 $ arm-none-eabi-gcc --version
-arm-none-eabi-gcc (GNU Tools for Arm Embedded Processors 7-2017-q4-major) 7.2.1 20170904 (release) [ARM/embedded-7-branch revision 255204]
-Copyright (C) 2017 Free Software Foundation, Inc.
+arm-none-eabi-gcc (GNU Tools for Arm Embedded Processors 8-2018-q4-major) 8.2.1 20181213 (release) [gcc-8-branch revision 267074]
+Copyright (C) 2018 Free Software Foundation, Inc.
 This is free software; see the source for copying conditions.  There is NO
 warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 ```
